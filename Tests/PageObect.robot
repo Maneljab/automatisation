@@ -6,7 +6,6 @@ Resource    ../Ressources/Keywords/commun.robot
 Resource    ../Ressources/Keywords/annonce.robot
 Resource    ../Ressources/Keywords/inscription.robot
 Resource    ../Ressources/Keywords/authentification.robot
-
 *** Test Cases ***
 Authentificationok
     [Documentation]    login avec mail existant
@@ -40,7 +39,7 @@ Inscrire un nouveau client
     Register 
     Close Browser
 Déposeé une annonce
-    [Documentation]    déposée une nouvelle annonce
+    [Documentation]    déposée une nouvelle annoncevoiture
     [Tags]        DNA
     openpage
     Depot-Annonce
