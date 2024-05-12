@@ -34,7 +34,7 @@ Deconnexion
     Logout
     Close Browser
 Inscrire un nouveau client
-    [Documentation]    incription d'un nouveau client
+    [Documentation]    l'incription d'un nouveau client
     [Tags]        INC
     openpage
     Register 
