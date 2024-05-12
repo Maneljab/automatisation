@@ -72,9 +72,9 @@ Depot-Annonce
     Wait Until Element Is Visible     codePays
     Scroll Element Into View    codePays
     Select From List By Index     codePays    1
-    Wait Until Element Is Visible    //*[@id="imgUpload-dropdiv"]/div
-    Scroll Element Into View     //*[@id="imgUpload-dropdiv"]/div
-    Click Element    xpath='//*[@id="imgUpload-dropdiv"]/div'
+    Wait Until Element Is Visible    //*[@id="imgUpload-dropdiv"]//[text()="Pas de photos sous la main"]
+    Scroll Element Into View     //*[@id="imgUpload-dropdiv"]//[text()="Pas de photos sous la main"]
+    Click Element     //*[@id="imgUpload-dropdiv"]//[text()="Pas de photos sous la main"]
     Wait Until Element Is Visible     //a[href="javascript:$.fancybox.close();"]
     Scroll Element Into View    //a[href="javascript:$.fancybox.close();"]
     Click Element     //a[href="javascript:$.fancybox.close();"]

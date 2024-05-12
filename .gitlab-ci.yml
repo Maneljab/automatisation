@@ -1,0 +1,10 @@
+stages:
+  - test
+
+robot_tests:
+  stage: test
+  image: robotframework/robotframework:latest
+  script:
+    - robot C:\projetauto\Tests\PageObect.robot
+  tags:
+    - docker
