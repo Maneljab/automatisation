@@ -78,6 +78,6 @@ Depot-Annonce
     Wait Until Element Is Visible     //a[href="javascript:$.fancybox.close();"]
     Scroll Element Into View    //a[href="javascript:$.fancybox.close();"]
     Click Element     //a[href="javascript:$.fancybox.close();"]
-    #Execute JavaScript    document.querySelector("a[id='suivant1']").click()
+    Execute JavaScript    document.querySelector("a[id='suivant1']").click()
 
 
