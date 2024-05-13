@@ -1,9 +1,12 @@
 stages:
   - test
-robot_tests:
-  stage: test
-  image: robotframework/robotframework:latest
+test:
+  image: python:3.8
+  before_script:
+    - pip install -r requirements.txt
   script:
-    - robot   C:\projetauto\Tests\PageObect.robot
-  tags:
-    - docker
+    - robot C:/projetauto/Tests/
+  artifacts:
+    when: always
+    paths:
+      - C:/projetauto/Resultats/output.xml
